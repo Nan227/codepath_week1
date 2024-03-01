@@ -3,7 +3,7 @@ import Event from "./Event";
 
 const Calendar = () => {
     return (
-      <div><div className ="Calendar">Weekly Calendar for Codpath students</div>
+      <div><div className ="Calendar"><h1>Weekly Calendar for Codpath students</h1></div>
       <div>
       <table>
   <thead>
@@ -21,7 +21,7 @@ const Calendar = () => {
   <tbody>
     <tr>
       <td className="time">8:00 am</td>
-      <Event />
+      <Event event = 'Business Analytics'  color = 'red'/>
       <td></td> {/* Empty cell for Sunday */}
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}

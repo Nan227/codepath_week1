@@ -18,3 +18,31 @@ td {
 .time {
   height: 40px;
 }
+/* Event Component Styles */
+.Event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.Event h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.Event p, h5 {
+  font-size: 16px;
+  color: #666;
+  background-color: #c3d9c3;
+}
+
+
+.green {
+  background-color: #32cd32;
+}
