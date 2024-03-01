@@ -4,6 +4,7 @@ import Event from "./Event";
 const Calendar = () => {
     return (
       <div><div className ="Calendar">Weekly Calendar for Codpath students</div>
+      <div>
       <table>
   <thead>
     <tr>
@@ -120,6 +121,7 @@ const Calendar = () => {
     </tr>
   </tbody>
 </table>
+</div>
 </div>
     )
 }
