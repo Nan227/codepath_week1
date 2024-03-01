@@ -21,6 +21,7 @@ const Calendar = () => {
   <tbody>
     <tr>
       <td className="time">8:00 am</td>
+      <Event />
       <td></td> {/* Empty cell for Sunday */}
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
