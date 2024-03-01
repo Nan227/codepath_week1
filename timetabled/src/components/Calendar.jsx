@@ -77,7 +77,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Tuesday */}
       <td></td> {/* Empty cell for Wednesday */}
       <td></td> {/* Empty cell for Thursday */}
-      <td> <Event event = 'Codepath Meeting'  color = 'pink'/></td> 
+      <td> <Event event = 'Codepath Meeting'  color = 'pink' location='BRR 5720'/></td> 
       <td></td> {/* Empty cell for Saturday */}
     </tr>
     <tr>
@@ -86,7 +86,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
       <td></td> {/* Empty cell for Wednesday */}
-      <td> <Event event = 'Codepath Meeting'  color = 'pink'/></td> 
+      <td> <Event event = 'Codepath Meeting'  color = 'pink' location='BRR 1520'/></td> 
       <td></td> {/* Empty cell for Friday */}
       <td></td> {/* Empty cell for Saturday */}
     </tr>
@@ -98,13 +98,14 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Wednesday */}
       <td></td> {/* Empty cell for Thursday */}
       <td></td> {/* Empty cell for Friday */}
-      <td> <Event event = 'Codepath Meeting'  color = 'green'/></td> 
+      <td> <Event event = 'Codepath Meeting'  color = 'green' location='BRR 5410'/></td> 
     </tr>
     <tr>
       <td className="time">4:00 pm</td>
       <td></td> {/* Empty cell for Sunday */}
-      <td></td> {/* Empty cell for Monday */}
+      <td> </td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
+      <Event event='Starbucks ☕️' color ='green' location='BRR 5520'/>
       <td></td> {/* Empty cell for Wednesday */}
       <td></td> {/* Empty cell for Thursday */}
       <td></td> {/* Empty cell for Friday */}
