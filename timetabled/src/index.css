@@ -20,15 +20,7 @@ td {
 }
 /* Event Component Styles */
 .Event {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 10px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  width: 100px;
 }
 
 .Event h1 {
@@ -39,10 +31,31 @@ td {
 .Event p, h5 {
   font-size: 16px;
   color: #666;
-  background-color: #c3d9c3;
+  align-content: center;
+  
 }
 
+.pink {
+  background: pink;
+}
+
+.blue {
+  background: rgb(190, 219, 229);
+
+}
 
 .green {
-  background-color: #32cd32;
+  background-color: #a0cba0;
+}
+/* Define styles for each color */
+.Event.green {
+  background-color: #a0cba0;
+}
+
+.Event.pink {
+  background-color: pink;
+}
+
+.Event.blue {
+  background-color: rgb(190, 219, 229);
 }

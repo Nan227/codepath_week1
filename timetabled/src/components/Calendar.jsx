@@ -21,7 +21,7 @@ const Calendar = () => {
   <tbody>
     <tr>
       <td className="time">8:00 am</td>
-      <Event event = 'Business Analytics'  color = 'red'/>
+      <Event event = 'Business Analytics'  color = 'green'/>
       <td></td> {/* Empty cell for Sunday */}
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
@@ -77,7 +77,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Tuesday */}
       <td></td> {/* Empty cell for Wednesday */}
       <td></td> {/* Empty cell for Thursday */}
-      <td></td> {/* Empty cell for Friday */}
+      <td> <Event event = 'Codepath Meeting'  color = 'pink'/></td> 
       <td></td> {/* Empty cell for Saturday */}
     </tr>
     <tr>
@@ -86,7 +86,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
       <td></td> {/* Empty cell for Wednesday */}
-      <td></td> {/* Empty cell for Thursday */}
+      <td> <Event event = 'Codepath Meeting'  color = 'pink'/></td> 
       <td></td> {/* Empty cell for Friday */}
       <td></td> {/* Empty cell for Saturday */}
     </tr>
@@ -98,7 +98,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Wednesday */}
       <td></td> {/* Empty cell for Thursday */}
       <td></td> {/* Empty cell for Friday */}
-      <td></td> {/* Empty cell for Saturday */}
+      <td> <Event event = 'Codepath Meeting'  color = 'green'/></td> 
     </tr>
     <tr>
       <td className="time">4:00 pm</td>
@@ -115,7 +115,7 @@ const Calendar = () => {
       <td></td> {/* Empty cell for Sunday */}
       <td></td> {/* Empty cell for Monday */}
       <td></td> {/* Empty cell for Tuesday */}
-      <td></td> {/* Empty cell for Wednesday */}
+      <td> <Event event = 'Codepath Homework'  color = 'pink'/></td> 
       <td></td> {/* Empty cell for Thursday */}
       <td></td> {/* Empty cell for Friday */}
       <td></td> {/* Empty cell for Saturday */}
