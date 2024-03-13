@@ -9,4 +9,4 @@ The following **required** functionality is completed:
 - [x] Events have different colors based on their type
 
 ## Screenshort
-[timetabled/src/assets/weeklycalendar.jpg](https://github.com/Nan227/codepath_week1/blob/master/timetabled/src/assets/weeklycalendar.jpg)
+![timetabled](https://github.com/Nan227/codepath_week1/blob/master/timetabled/src/assets/weeklycalendar.jpg)
